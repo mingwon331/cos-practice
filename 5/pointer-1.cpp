@@ -6,6 +6,8 @@ int main(int argc, char *argv[])
 {
 	int arr[BUFLEN];
 	int *p;
+	char *q
+	short *r;
 	int a, i;
 
 	for (i = 0; i < BUFLEN; i++)
@@ -20,5 +22,9 @@ int main(int argc, char *argv[])
 	cout << "*p = " << *p << endl;
 	cout << "arr = " << arr << endl;
 
+	cout << "sizeof(p): " << sizeof(p) << endl;
+	cout << "sizeof(q): " << sizeof(q) << endl;
+	cout << "sizeof(r): " << sizeof(r) << endl;
+	
 	return 0;
 }
