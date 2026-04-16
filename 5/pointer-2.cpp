@@ -6,6 +6,8 @@ int main(int argc, char *argv[])
 {
 	int arr[BUFLEN];
 	int *p;
+	char *q;
+	chort *r;
 	int a, i;
 
 	for (i = 0; i < BUFLEN; i++)
